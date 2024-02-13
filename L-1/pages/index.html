@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/mobile.css">
+</head>
+<body>
+
+<header class="container">
+    <div class="header_burger">
+        <img src="../images/svg/burger.svg" alt="">
+    </div>
+    <div class="header_top-menu">
+        <h3>Магазины</h3>
+        <h3>Акции</h3>
+        <h3>Доставка и оплата</h3>
+    </div>
+    <div class="header_logo">
+        <img src="../images/svg/Logo.svg" alt="" class="Logo">
+        <h3>DRIVE MOTO</h3>
+    </div>
+    <div class="header_address">
+        <h3> <span><img src="../images/svg/addres.svg" alt=""></span>
+            Москва,  ул. Науки  25
+        </h3>
+    </div>
+    <div class="header_right">
+        <div>
+            <img src="../images/svg/heart.svg" alt="heart icon">
+        </div>
+        <div>
+            <img src="../images/svg/men.svg" alt="user icon">
+        </div>
+        <div>
+            <img src="../images/svg/cart.svg" alt="cart icon">
+        </div>
+    </div>
+</header>
+
+<div class="header_bottom">
+    <div class="container">
+        <nav>
+            <a href="">Квадроциклы</a>
+            <a href="">Катера</a>
+            <a href="">Гидроциклы</a>
+            <a href="">Лодки</a>
+            <a href="">Вездеходы</a>
+            <a href="">Снегоходы</a>
+            <a href="">Двигатели</a>
+            <a href="">Запчасти</a>
+        </nav>
+    </div>
+</div>
+
+<!-- main-banner-->
+<main class="banner container">
+    <div class="main_banner-carousel">
+        <img class="bn" src="../images/banner.png" alt="">
+        <button class="main-btn-prev"><img src="../images/svg/left.svg" alt=""> </button>
+        <button class="main-btn-next"><img src="../images/svg/right.svg" alt=""> </button>
+    </div>
+    <div class="main_promo">
+        <button class="promo">Акция</button>
+<!--        <p class="rub">190 000 &#8381</p>-->
+        <img class="rub" src="../images/svg/rub1.svg" alt="">
+<!--        <img   class="rub1" src="../images/svg/rub.svg" alt="">-->
+        <p class="rub1" >225 000 &#8381</p>
+        <img class="sz" src="../images/svg/suzuki.svg" alt="">
+        <h3 class="text">Лодочный мотор<br>
+            Suzuki DF9.9BRS</h3>
+    <div class="fot">
+        <h3>Акция действует до<br>
+        <span class="blue">31.08.2020</span></h3>
+    </div>
+    </div>
+</main>
+
+<!--search-->
+<section class="search">
+    <div class="container">
+        <div class="search-tab">
+            <ul>
+                <li class="li-active" onclick="openTab('tab1')">Поиск по  номеру</li>
+                <li onclick="openTab('tab2')" >Поиск по марке</li>
+                <li onclick="openTab('tab3')">Поиск по названию товара</li>
+            </ul>
+        </div>
+        <div  id="tab1" class="search-box active">
+            <input class="search__input" type="text" placeholder="Поиск по  номеру ">
+            <button class="search__btn">Искать</button>
+        </div>
+        <div id="tab2" class="search-box">
+            <input class="search__input" type="text" placeholder="Поиск по марке ">
+            <button class="search__btn">Искать</button>
+        </div>
+        <div id="tab3" class="search-box">
+            <input class="search__input" type="text" placeholder="Поиск по названию товара ">
+            <button class="search__btn">Искать</button>
+        </div>
+    </div>
+</section>
+
+<section class="category">
+    <div class="container">
+        <div class="boxes">
+
+        </div>
+    </div>
+</section>
+
+<script src="../scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+@media(max-width: 768px) {
+    header{
+        justify-content: space-between;
+    }
+    .header_top-menu,
+    .Logo,
+    .header_address{
+        display: none;
+    }
+    .header_logo{
+        margin-right: 35px;
+    }
+    .header_burger{
+        display: block;
+    }
+    .header_bottom nav{
+        margin-top: 0;
+        overflow: scroll;
+        margin-bottom: 25px;
+    }
+    .main-btn-next,
+    .main-btn-prev{
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .main_promo{
+        width: 260px;
+        width: 80%;
+    }
+    .bn{
+        width: 320px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
